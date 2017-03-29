@@ -1,0 +1,92 @@
+body	{
+	background-color: #b6b3a1;
+  margin-top: 5%;
+}
+.navbar li a, .navbar .navbar-brand { 
+      color: #477ccd !important;
+  }
+.navbar-nav li a:hover {
+      color: #555 !important;
+      background-color: #827d7d !important;
+      border-radius: 3px !important;
+
+  }
+.navbar-nav li.active a {
+      color: red !important;
+      background-color: red !important;
+  }
+.navbar  {
+	background-color: #f56e0b;
+	width: 100%;
+	height: 5%;
+}
+.navbar-brand	{
+	font-size: 30px;
+	font-weight: 800;
+}
+.navbar-brand:hover	{
+	color: #555 !important;
+}
+.navbar-nav a	{
+	font-size: 20px;
+}
+.navbar-default .navbar-toggle, 	{
+	border-color: transparent;
+}
+.nav-tabs	{
+	width: 100%
+	height: 40px;
+	font-size: 20px;
+}
+.collapse ul	{
+	font-style: italic;
+}
+.carousel-inner img {
+	max-height: 400px;
+    width: 1500px; /* Set width to 100% */
+    margin: auto;
+  }
+.carousel-caption h1	{
+	font-size: 60px;
+    color: #fff !important;
+  }
+  .carousel-caption h3	{
+	font-size: 20px;
+    color: #fff !important;
+  }
+@media (max-width: 600px) {
+.carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+.search	{
+  	width: 70px;
+  	height: 30px;
+  	border: 2px solid #242220;
+  	border-radius: 3px;
+  }
+  .col-sm-2 {
+    margin: 20px;
+  }
+.thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+.thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+.thumbnail img	{
+  	width: 200px;
+  	height: 200px;
+  	margin: 5px auto;
+  	padding-top: 10px;
+  }
+.foot	{
+	background-color: #f56e0b;
+	opacity: 0.9;
+	border: 2px solid #827d7d;
+	border-radius: 10px;
+}
+
+
